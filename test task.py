@@ -11,7 +11,7 @@ def calculateAvailableTotal(items):
             print(f"Item: {item['name']} | Price: {new_price}")
             startprice = startprice + new_price
     print(f"Total cost: {startprice:.2f}")
-    return sum                                 
+    return startprice                                 
 
 calculateAvailableTotal(items)
 
